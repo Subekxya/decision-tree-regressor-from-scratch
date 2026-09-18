@@ -44,11 +44,7 @@ For every feature, the implementation:
 The weighted split MSE is:
 
 $$
-MSE_{split}
-=
-\frac{n_L}{n}MSE_L
-+
-\frac{n_R}{n}MSE_R
+MSE_{split} = \frac{n_L}{n}MSE_L + \frac{n_R}{n}MSE_R
 $$
 
 where $n_L$ and $n_R$ are the numbers of samples in the left and right groups.
